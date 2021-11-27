@@ -14,6 +14,7 @@ This project is built upon [LittleLink](https://github.com/sethcottle/littlelink
     - [Build & Preview](#build--preview)
     - [Deploy](#deploy)
   - [Maintain](#maintain)
+- [What is LittleLink?](#what-is-littlelink)
 
 ## Why?
 Customizing LittleLink involves a lot of manual work. This project was developed to easily customize LittleLink without modifying its source.
@@ -56,21 +57,21 @@ $ git clone --recurse-submodules https://github.com/venkivijay/Links
 
 ```json
 {
-    "bio": {
-		"name": "Your name",
-        "description": "Any text"
-	},
-	"links": [
-		{ 
-            "url": "https://venkivijay.com",
-            "displayText": "Portfolio" 
-        },
-		{
-			"button": "github",
-			"icon": "github",
-			"url": "https://github.com/venkivijay"
-		}
-    ]
+  "bio": {
+    "name": "Your name",
+    "description": "Any text"
+  },
+  "links": [
+    {
+      "url": "https://venkivijay.com",
+      "displayText": "Portfolio"
+    },
+    {
+      "button": "github",
+      "icon": "github",
+      "url": "https://github.com/venkivijay"
+    }
+  ]
 }
 ```
 
@@ -105,3 +106,17 @@ LittleLink repo is a submodule to this project and lives under `src/assets/littl
 ```bash
 $ git submodule update --remote --merge
 ```
+# What is LittleLink?
+
+![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
+
+LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
+and [many.link](https://many.link/). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
+
+![Themes](https://cdn.cottle.cloud/littlelink/themes.png)
+
+LittleLink has more than 20 company button styles you can use and we'll be throwing more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. 
+
+![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
+
+Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
