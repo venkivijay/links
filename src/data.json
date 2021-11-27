@@ -1,0 +1,42 @@
+{
+	"bio": {
+		"name": "Venki Vijay"
+	},
+	"links": [
+		{ "url": "https://venkivijay.com", "displayText": "Portfolio" },
+		{
+			"button": "github",
+			"icon": "twitch",
+			"url": "https://github.com/venkivijay"
+		},
+		{
+			"button": "linkedin",
+			"icon": "linkedin",
+			"url": "https://linkedin.com/in/venkivijay"
+		},
+		{
+			"icon": "email",
+			"url": "mailto:venkivijay@hotmail.com"
+		},
+		{
+			"button": "whatsapp",
+			"icon": "whatsapp",
+			"url": "https://wa.me/+918122932334"
+		},
+		{
+			"button": "facebook",
+			"icon": "facebook",
+			"url": "https://www.facebook.com/venki.vj.vijay"
+		},
+		{
+			"button": "instagram",
+			"icon": "instagram",
+			"url": "https://www.instagram.com/venki.vj/"
+		},
+		{
+			"button": "twitter",
+			"icon": "twitter",
+			"url": "https://twitter.com/venkivijay_"
+		}
+	]
+}

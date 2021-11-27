@@ -1,0 +1,20 @@
+{
+  "name": "links",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm run sprite && vite",
+    "build": "npm run sprite && vite build",
+    "serve": "vite preview",
+    "sprite": "node utils/generateSVGSprite.js"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "prettier": "^2.5.0",
+    "svg-sprite": "^1.5.3",
+    "vite": "^2.6.4"
+  }
+}

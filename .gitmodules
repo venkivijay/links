@@ -1,0 +1,3 @@
+[submodule "src/assets/littlelink"]
+	path = src/assets/littlelink
+	url = git@github.com:sethcottle/littlelink.git
