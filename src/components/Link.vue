@@ -1,5 +1,13 @@
 <template>
-	<a :title="getTitle" :href="url" :class="getClass" class="button" target="_blank" rel="noopener">
+	<a
+		@click="handleClick"
+		:title="getTitle"
+		:href="url"
+		:class="getClass"
+		class="button"
+		target="_blank"
+		rel="noopener"
+	>
 		<svg v-if="icon" class="icon" role="img">
 			<use :xlink:href="getSrc"></use>
 		</svg>
@@ -30,4 +38,10 @@
 		if (displayText) return displayText.trim()
 		return icon.trim().replace(/^\w/, (c) => c.toUpperCase())
 	})
+	function handleClick(e) {
+		gtag("event", "click", {
+			event_category: "link",
+			event_label: getText.value,
+		})
+	}
 </script>
