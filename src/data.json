@@ -6,7 +6,7 @@
 		{ "url": "https://venkivijay.com", "displayText": "Portfolio" },
 		{
 			"button": "github",
-			"icon": "twitch",
+			"icon": "github",
 			"url": "https://github.com/venkivijay"
 		},
 		{
