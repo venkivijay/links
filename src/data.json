@@ -4,6 +4,7 @@
 	},
 	"links": [
 		{ "url": "https://venkivijay.com", "displayText": "Portfolio" },
+		{ "url": "https://venkivijay.github.io/resume/Venkatesh-Developer-Resume.pdf", "displayText": "Resume" },
 		{
 			"button": "github",
 			"icon": "github",
